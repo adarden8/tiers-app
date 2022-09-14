@@ -13,9 +13,7 @@
     "url": "git+https://github.com/kogsio/littletiers.git"
   },
   "engines": {
-
     "node": "14.x"
-
   },
   "author": "adarden180@gmail.com",
   "license": "MIT",
@@ -24,10 +22,13 @@
   },
   "homepage": "https://github.com/kogsio/littletiers#readme",
   "dependencies": {
-    "@faker-js/faker": "^7.4.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.18.1",
     "faker": "^5.1.0",
+    "lodash": "^4.17.21",
     "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0"
   }
 }
